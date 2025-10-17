@@ -5,6 +5,12 @@ Upload your résumé, pick a roast personality, and let AI unleash chaos. Powere
 
 [🌐 Live Demo](https://roastmyresume1.netlify.app/)
 
+<img width="1470" height="956" alt="Screenshot 2025-10-17 at 6 05 21 PM" src="https://github.com/user-attachments/assets/6c581df3-6da7-4cf5-82b9-721843d31fb8" />
+<img width="1470" height="956" alt="Screenshot 2025-10-17 at 6 05 49 PM" src="https://github.com/user-attachments/assets/71870fbe-7ff2-4228-a1d6-a7d32cc166ab" />
+<img width="1470" height="956" alt="Screenshot 2025-10-17 at 6 06 02 PM" src="https://github.com/user-attachments/assets/9e79a658-9958-4546-ad81-28222ec6110d" />
+<img width="1470" height="956" alt="Screenshot 2025-10-17 at 6 06 27 PM" src="https://github.com/user-attachments/assets/836f7309-8aca-4f23-a37f-2af11bf895b6" />
+
+
 ---
 
 ## 🚀 Features
