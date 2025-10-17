@@ -1,76 +1,112 @@
-# 😛 Roast My Résumé
-Live Link: https://roastmyresume1.netlify.app/
-Get your résumé absolutely destroyed by AI. A hilarious web app powered by Google's Gemini API.
+# 🧠 Roast My Résumé
 
-## ✨ Features
+**Roast My Résumé** is a hilarious AI-powered web app that absolutely *destroys* your résumé — in style.  
+Upload your résumé, pick a roast personality, and let AI unleash chaos. Powered by **Google Gemini 2.0 Flash**.
 
-- 📄 Upload résumés (.txt, .pdf, .docx) or paste text
-- 🎭 4 brutal roast personalities:
-  - **Unhinged HR 💀** - 6 espressos, zero chill, pure Gen Z chaos
-  - **LinkedIn Bro 🤡** - toxic influencer energy
-  - **Bestie Mode 💅** - brutally honest friend vibes
-  - **Chaos Recruiter 🔥** - dead inside, darkly funny
-- 🎨 Modern dark UI with glass morphism and neon effects
-- 🏆 Savage badges and ratings
-- 🔗 Share on Twitter/X and LinkedIn
-- 📋 Copy roast to clipboard
-
-## 🚀 Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000)
-
-## 🛠️ Tech Stack
-
-- **Framework:** Next.js 14
-- **Styling:** TailwindCSS
-- **Animations:** Framer Motion
-- **AI:** Google Gemini 2.5 Flash
-- **Fonts:** Space Grotesk + Inter
-
-## 🌐 Deploy to Netlify
-
-1. Push to GitHub (already done ✅)
-2. Go to [Netlify](https://app.netlify.com)
-3. Click "Add new site" → "Import an existing project"
-4. Connect to GitHub and select `Roast-My-Resume`
-5. Add environment variable:
-   - Key: `GEMINI_API_KEY`
-   - Value: Your Gemini API key
-6. Click "Deploy site"
-
-That's it! Your site will be live in ~2 minutes.
-
-## 🔑 Environment Variables
-
-Create a `.env.local` file:
-
-```env
-GEMINI_API_KEY=your_gemini_api_key_here
-```
-
-Get your free API key at [Google AI Studio](https://makersuite.google.com/app/apikey)
-
-## 🎨 Design Features
-
-- Dark mode with animated gradients
-- Glass morphism effects
-- Neon glows and shadows
-- Scan line animations
-- Floating elements
-- Responsive design
-
-## 📝 License
-
-MIT - Do whatever you want with it
+[🌐 Live Demo](https://roastmyresume1.netlify.app/)
 
 ---
 
-all roasts are jokes (mostly)
+## 🚀 Features
+
+- 📄 Upload or paste your résumé (PDF, DOCX, or plain text)
+- 🤖 Choose your roast personality:
+  - **Unhinged HR** – caffeine, sarcasm, and chaos  
+  - **LinkedIn Bro** – motivational yet painfully cringe  
+  - **Bestie Mode** – your brutally honest best friend  
+  - **Chaos Recruiter** – dark corporate humor at its peak  
+- 💬 AI-Generated savage reviews with humor and feedback  
+- 🌈 Sleek dark UI with **glass morphism** and **neon glow**
+- 🎭 Share your roast on social media or copy the text
+- ⚡ Fast, responsive, and mobile-friendly
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Technology |
+|:------|:------------|
+| **Frontend** | Next.js 14 (React Framework) |
+| **Styling** | Tailwind CSS |
+| **Animations** | Framer Motion |
+| **AI Engine** | Google Gemini 2.0 Flash API |
+| **Deployment** | Netlify |
+| **Fonts** | Space Grotesk & Inter |
+
+---
+
+## 🛠️ Setup & Installation
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/suvarchaw/Roast-My-Resume.git
+   cd Roast-My-Resume
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Create Environment File**
+   ```bash
+   # In the project root, create a .env.local file and add:
+   GEMINI_API_KEY=your_gemini_api_key_here
+   ```
+
+4. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+5. **Open in Browser**  
+   Go to 👉 [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌍 Deployment (Netlify)
+
+1. Push your code to GitHub  
+2. Go to **Netlify Dashboard → Add new site → Import from GitHub**  
+3. Add environment variable:
+   - Key: `GEMINI_API_KEY`
+   - Value: your Gemini API key  
+4. Deploy 🚀  
+
+---
+
+## 🎨 UI & Design
+
+- Dark theme with glowing effects  
+- Subtle glass blur and gradients  
+- Smooth entrance animations using **Framer Motion**  
+- Fully responsive for mobile and desktop  
+
+---
+
+## ⚙️ How It Works
+
+1. User uploads or pastes their résumé  
+2. User selects a roast personality  
+3. The résumé + prompt are sent to the **Next.js API route**  
+4. API connects to **Gemini 2.0 Flash** model  
+5. Gemini returns a roast response → displayed on screen  
+
+---
+
+## ⚠️ Disclaimer
+
+This app is purely for fun and entertainment.  
+The AI’s feedback is meant as humor — don’t take it seriously! 😆
+
+---
+
+## 🧑‍💻 Developer
+
+**Developed by:** [Suvarcha Wadhwa](https://github.com/suvarchaw)
+
+---
+
+## 🪪 License
+
+No official license. All rights reserved by the developer.
